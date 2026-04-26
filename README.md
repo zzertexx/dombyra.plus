@@ -6,6 +6,8 @@ Simple device to teach playing on Dombyra
 Have you ever wanted to learn playing Dombyra at home?
 If yes, then you absolutely looked resources to learn, and what you found was some videos that shows you how they play, while you need to everytime find out which notes is being pressed.
 
+I had exact same problem, so I built this!
+
 This device is solution for your problem. First hardware addon for Dombyra.
 
 Using bunch of SK6812 LEDs on Dombyra's neck, it will show you which notes need to be pressed right now and after.
@@ -22,6 +24,13 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 * Firmware was written on Arduino IDE
 * Currently it has 2 kuis(more coming soon)
 * Needed libraries: FastLED.h, i2s.h(core), WiFi.h(core), WebServer.h(core)
+
+## How to actually use it?
+1) Assemble PCB into Case
+2) Compile code into ESP32
+3) Charge battery and start it
+4) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
+5) Choose the kui that you wanna learn and enjoy the process!
 
 ## Bill of Materials
 
@@ -43,9 +52,21 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 | Inductor 4.7uH | 1 |
 | Diode | 2 LED and 1 Schottky |
 | Resistors | 110k; 15k; 330 x2; 68k; 2.4k; 1k; 0.4; 5k1 x2 |
+| 4-pin JST XH2.54 | 1 |
+
+## PCB & Schematics
+Designed on KiCad 10
+
+It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Microphone and MCU. They are connected using 4-pin JST wires for GND, 5V and 2 data channels. 
+
+<img width="664" height="825" alt="image" src="https://github.com/user-attachments/assets/bb66e424-bd15-4a1d-a8a3-d3647dd40f36" />
+<img width="1710" height="864" alt="image" src="https://github.com/user-attachments/assets/df6e060f-1a22-4cbf-a48d-67cecb664b72" />
+<img width="1711" height="225" alt="image" src="https://github.com/user-attachments/assets/ff2b67a5-2f6e-4c67-b3aa-e72247ab664b" />
+<img width="1714" height="824" alt="image" src="https://github.com/user-attachments/assets/315ca53c-785b-4111-a09b-3ba192af2854" />
+
+
+## Images of controller case
 
 <img width="1920" height="1080" alt="3D Case2" src="https://github.com/user-attachments/assets/680663b6-9155-4d0b-91b3-0e8ec0ef954c" />
 <img width="1920" height="1080" alt="3D Case1" src="https://github.com/user-attachments/assets/afbbc740-3484-4c99-b3f2-54b834279d16" />
-<img width="1710" height="864" alt="image" src="https://github.com/user-attachments/assets/df6e060f-1a22-4cbf-a48d-67cecb664b72" />
-<img width="1714" height="824" alt="image" src="https://github.com/user-attachments/assets/315ca53c-785b-4111-a09b-3ba192af2854" />
 
