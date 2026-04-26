@@ -18,6 +18,11 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 * Comfortable case to play
 * Volume spike detector to continue play
 
+## Firmware
+* Firmware was written on Arduino IDE
+* Currently it has 2 kuis(more coming soon)
+* Needed libraries: FastLED.h, i2s.h(core), WiFi.h(core), WebServer.h(core)
+
 ## Bill of Materials
 
 | Component | Quantity |
