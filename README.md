@@ -1,6 +1,6 @@
 # Dombyra.plus
 Simple device to teach playing on Dombyra
-<img width="1920" height="1080" alt="dombyra_case" src="https://github.com/user-attachments/assets/f210b4bb-d1ed-4d9a-80ed-d45d29586769" />
+<img width="794" height="1219" alt="image" src="https://github.com/user-attachments/assets/8f0c940b-7cf5-4745-8e5f-1be6583d38d5" />
 
 ## Description
 Have you ever wanted to learn playing Dombyra at home?
@@ -67,8 +67,7 @@ It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Micropho
 <img width="1714" height="824" alt="image" src="https://github.com/user-attachments/assets/315ca53c-785b-4111-a09b-3ba192af2854" />
 
 
-## Images of controller case
-
+## Images of cases
+<img width="1920" height="1080" alt="dombyra_case" src="https://github.com/user-attachments/assets/f210b4bb-d1ed-4d9a-80ed-d45d29586769" />
 <img width="1920" height="1080" alt="3D Case2" src="https://github.com/user-attachments/assets/680663b6-9155-4d0b-91b3-0e8ec0ef954c" />
 <img width="1920" height="1080" alt="3D Case1" src="https://github.com/user-attachments/assets/afbbc740-3484-4c99-b3f2-54b834279d16" />
-
