@@ -8,7 +8,7 @@ If yes, then you absolutely looked resources to learn, and what you found was so
 
 I had exact same problem, so I built this!
 
-This device is solution for your problem. First hardware addon for Dombyra.
+This device is solution for it. First hardware addon for Dombyra.
 
 Using bunch of SK6812 LEDs on Dombyra's neck, it will show you which notes need to be pressed right now and after.
 By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes and continue showing notes.
