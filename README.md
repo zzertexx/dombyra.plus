@@ -27,10 +27,11 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 
 ## How to actually use it?
 1) Assemble PCB into Case
-2) Compile code into ESP32
-3) Charge battery and start it
-4) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
-5) Choose the kui that you wanna learn and enjoy the process!
+2) Use strap to attach microphone case
+3) Compile code into ESP32
+4) Charge battery and start it
+5) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
+6) Choose the kui that you wanna learn and enjoy the process!
 
 ## Bill of Materials
 
@@ -53,6 +54,7 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 | Diode | 2 LED and 1 Schottky |
 | Resistors | 110k; 15k; 330 x2; 68k; 2.4k; 1k; 0.4; 5k1 x2 |
 | 4-pin JST XH2.54 | 1 |
+| Straps | 1 |
 
 ## PCB & Schematics
 Designed on KiCad 10
