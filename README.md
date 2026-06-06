@@ -28,7 +28,7 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 * Needed libraries: FastLED.h, i2s.h(core), WiFi.h(core), WebServer.h(core)
 
 ## Attachment
-To make sure cases won't move, I added attachment legs for **LED case** and also usage of nylon tape for **microphone case**
+To make sure cases won't move, I added attachment legs for **LED case** and also usage of nylon tape for **microphone case** so you can remove device whenever you want
 
 ## How to actually use it?
 1) Assemble PCB into Case
