@@ -27,11 +27,14 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 * Currently it has 2 kuis(more coming soon)
 * Needed libraries: FastLED.h, i2s.h(core), WiFi.h(core), WebServer.h(core)
 
+## Attachment
+To make sure cases won't move, I added attachment legs for **LED case** and also usage of nylon tape for **microphone case**
+
 ## How to actually use it?
 1) Assemble PCB into Case
-2) Use strap to attach microphone case
+2) Use nylon to attach microphone case
 3) Compile code into ESP32
-4) Charge battery and start it
+4) Charge battery, place LED case and start it
 5) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
 6) Choose the kui that you wanna learn and enjoy the process!
 
@@ -56,7 +59,7 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 | Diode | 2 LED and 1 Schottky |
 | Resistors | 110k; 15k; 330 x2; 68k; 2.4k; 1k; 0.4; 5k1 x2 |
 | 4-pin JST XH2.54 | 1 |
-| Straps | 1 |
+| Nylon Tape | 1 |
 
 ## PCB & Schematics
 Designed on KiCad 10.0
