@@ -1,6 +1,8 @@
-# Dombyra.plus
-Simple device to teach playing on Dombyra
-<img width="794" height="1219" alt="image" src="https://github.com/user-attachments/assets/8f0c940b-7cf5-4745-8e5f-1be6583d38d5" />
+# Dombyra Plus
+Simple device to teach playing on Dombyra!
+<img width="3146" height="4811" alt="poster_page-0001 (1)" src="https://github.com/user-attachments/assets/dc4056a1-67a9-468e-b5fe-ed94052c359a" />
+
+
 
 ## Description
 Have you ever wanted to learn playing Dombyra at home?
@@ -57,7 +59,7 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 | Straps | 1 |
 
 ## PCB & Schematics
-Designed on KiCad 10
+Designed on KiCad 10.0
 
 It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Microphone and MCU. They are connected using 4-pin JST wires for GND, 5V and 2 data channels. 
 
