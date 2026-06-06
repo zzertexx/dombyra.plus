@@ -34,8 +34,8 @@ To make sure cases won't move, I added attachment legs for **LED case** and also
 1) Assemble PCB into Case
 2) Use nylon to attach microphone case
 3) Compile code into ESP32
-4) Connect both PCBs using **4-pin JST XH2.54**
-5) Charge battery, place LED case and start it
+4) Place PCBs on dombyra and connect both using **4-pin JST XH2.54** and specialized pins
+5) Charge battery and start it
 6) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
 7) Choose the kui that you wanna learn and enjoy the process!
 
