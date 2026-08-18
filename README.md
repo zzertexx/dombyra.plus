@@ -1,6 +1,7 @@
-# Dombyra.plus
-Simple device to teach playing on Dombyra
-<img width="794" height="1219" alt="image" src="https://github.com/user-attachments/assets/8f0c940b-7cf5-4745-8e5f-1be6583d38d5" />
+# Dombyra Plus
+Simple device to teach playing on Dombyra!
+<img width="1510" height="2309" alt="Untitled" src="https://github.com/user-attachments/assets/b4007b5c-e2ee-42fe-ac29-fb4ebc2e9f14" />
+
 
 ## Description
 Have you ever wanted to learn playing Dombyra at home?
@@ -22,16 +23,20 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 
 ## Firmware
 * Firmware was written on Arduino IDE
-* Currently it has 2 kuis(more coming soon)
+* Currently it has Erkem-Ai
 * Needed libraries: FastLED.h, i2s.h(core), WiFi.h(core), WebServer.h(core)
+
+## Attachment
+To make sure cases won't move, I added attachment legs for **LED case** and also usage of nylon tape for **microphone case** so you can remove device whenever you want
 
 ## How to actually use it?
 1) Assemble PCB into Case
-2) Use strap to attach microphone case
+2) Use nylon to attach microphone case
 3) Compile code into ESP32
-4) Charge battery and start it
-5) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
-6) Choose the kui that you wanna learn and enjoy the process!
+4) Place PCBs on dombyra and connect both using **4-pin JST XH2.54** and specialized pins
+5) Charge battery and start it
+6) Connect to ESP32's Wi-Fi and enter http://192.168.4.1
+7) Choose the kui that you wanna learn and enjoy the process!
 
 ## Bill of Materials
 
@@ -54,10 +59,10 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 | Diode | 2 LED and 1 Schottky |
 | Resistors | 110k; 15k; 330 x2; 68k; 2.4k; 1k; 0.4; 5k1 x2 |
 | 4-pin JST XH2.54 | 1 |
-| Straps | 1 |
+| Nylon Tape | 1 |
 
 ## PCB & Schematics
-Designed on KiCad 10
+Designed on KiCad 10.0
 
 It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Microphone and MCU. They are connected using 4-pin JST wires for GND, 5V and 2 data channels. 
 
@@ -71,3 +76,6 @@ It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Micropho
 <img width="1920" height="1080" alt="dombyra_case" src="https://github.com/user-attachments/assets/f210b4bb-d1ed-4d9a-80ed-d45d29586769" />
 <img width="1920" height="1080" alt="3D Case2" src="https://github.com/user-attachments/assets/680663b6-9155-4d0b-91b3-0e8ec0ef954c" />
 <img width="1920" height="1080" alt="3D Case1" src="https://github.com/user-attachments/assets/afbbc740-3484-4c99-b3f2-54b834279d16" />
+
+## Demo Picture
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/25797ccd-a06c-4d5a-9a41-536ecaab5e20" />
