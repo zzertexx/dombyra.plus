@@ -77,5 +77,6 @@ It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Micropho
 <img width="1920" height="1080" alt="3D Case2" src="https://github.com/user-attachments/assets/680663b6-9155-4d0b-91b3-0e8ec0ef954c" />
 <img width="1920" height="1080" alt="3D Case1" src="https://github.com/user-attachments/assets/afbbc740-3484-4c99-b3f2-54b834279d16" />
 
-## Demo Picture
+## Demo 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/25797ccd-a06c-4d5a-9a41-536ecaab5e20" />
+https://youtu.be/3Eh5J_6kmjc
