@@ -1,7 +1,6 @@
 # Dombyra Plus
 Simple device to teach playing on Dombyra!
-<img width="3146" height="4811" alt="poster_page-0001 (1)" src="https://github.com/user-attachments/assets/dc4056a1-67a9-468e-b5fe-ed94052c359a" />
-
+<img width="1510" height="2309" alt="Untitled" src="https://github.com/user-attachments/assets/b4007b5c-e2ee-42fe-ac29-fb4ebc2e9f14" />
 
 
 ## Description
@@ -24,7 +23,7 @@ By ESP32 and INMP441 mic, it will be controlled by local Website to choose notes
 
 ## Firmware
 * Firmware was written on Arduino IDE
-* Currently it has 2 kuis(more coming soon)
+* Currently it has Erkem-Ai
 * Needed libraries: FastLED.h, i2s.h(core), WiFi.h(core), WebServer.h(core)
 
 ## Attachment
@@ -77,3 +76,6 @@ It consists of 2 PCBs. One on neck for LEDs and second one for Battery, Micropho
 <img width="1920" height="1080" alt="dombyra_case" src="https://github.com/user-attachments/assets/f210b4bb-d1ed-4d9a-80ed-d45d29586769" />
 <img width="1920" height="1080" alt="3D Case2" src="https://github.com/user-attachments/assets/680663b6-9155-4d0b-91b3-0e8ec0ef954c" />
 <img width="1920" height="1080" alt="3D Case1" src="https://github.com/user-attachments/assets/afbbc740-3484-4c99-b3f2-54b834279d16" />
+
+## Demo Picture
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/25797ccd-a06c-4d5a-9a41-536ecaab5e20" />
